@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Interface\MainWindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Widgets\TabWidget\TabWidget.cpp">
+      <Filter>Interface\Widgets\TabWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Widgets\LootTable\LootTable.cpp">
+      <Filter>Interface\Widgets\LootTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Widgets\GridLayoutDock\GridLayoutDock.cpp">
+      <Filter>Interface\Widgets\GridLayoutDock</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Widgets\EventViewer\EventViewer.cpp">
+      <Filter>Interface\Widgets\EventViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Widgets\BotTable\BotTable.cpp">
+      <Filter>Interface\Widgets\BotTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Widgets\BotTable\BotTableViewModel.cpp">
+      <Filter>Interface\Widgets\BotTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Dialogs\TeamServerDialog.cpp">
+      <Filter>Interface\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Connection\ConnectionHandler.cpp">
+      <Filter>Core\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Connection\Http.cpp">
+      <Filter>Core\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Connection\WebsocketConnection.cpp">
+      <Filter>Core\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\RequestHandler\WebsocketMessageHandler.cpp">
+      <Filter>Core\RequestHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Requests\ListLootRequest.h">
+      <Filter>Core\Requests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{7749f097-c4e0-4dff-ae35-65fb19c38e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Dialogs">
+      <UniqueIdentifier>{4e71c53b-71f7-40b3-97b3-94cce3f6aec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Widgets">
+      <UniqueIdentifier>{96396f8a-bd65-4760-a22e-943e712189e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{69741e04-3988-47b9-a2ec-83549a7460c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Connection">
+      <UniqueIdentifier>{330c2f92-a1ff-423b-811f-c05c49109230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Requests">
+      <UniqueIdentifier>{f1286451-3964-41f1-a2a0-5c26f496e7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\RequestHandler">
+      <UniqueIdentifier>{212a9cf4-b610-45db-b10d-4b978c15035c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Widgets\BotTable">
+      <UniqueIdentifier>{4290f89b-f35b-45ff-9368-5baccbff21b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Widgets\GridLayoutDock">
+      <UniqueIdentifier>{19946f14-bf2e-47e2-9cf6-35ca9134c1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Widgets\TabWidget">
+      <UniqueIdentifier>{a305e6ee-24fe-486f-8c3d-94c344cfce8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Widgets\EventViewer">
+      <UniqueIdentifier>{9a8be5b0-1842-46c7-b526-e24da5c0dca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Widgets\LootTable">
+      <UniqueIdentifier>{27b4963d-c60f-4958-83ef-ca89f0e5e18a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface\MainWindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Widgets\GridLayoutDock\GridLayoutDock.h">
+      <Filter>Interface\Widgets\GridLayoutDock</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Widgets\EventViewer\EventViewer.h">
+      <Filter>Interface\Widgets\EventViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Dialogs\TeamServerDialog.h">
+      <Filter>Interface\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Requests\DownloadLootRequest.h">
+      <Filter>Core\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Requests\ListClientsRequest.h">
+      <Filter>Core\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Requests\ListCommandsRequest.h">
+      <Filter>Core\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Requests\Request.h">
+      <Filter>Core\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Requests\SendCommandRequest.h">
+      <Filter>Core\Requests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Interface\Widgets\TabWidget\TabWidget.h">
+      <Filter>Interface\Widgets\TabWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="Interface\Widgets\LootTable\LootTable.h">
+      <Filter>Interface\Widgets\LootTable</Filter>
+    </QtMoc>
+    <QtMoc Include="Interface\Widgets\BotTable\BotTable.h">
+      <Filter>Interface\Widgets\BotTable</Filter>
+    </QtMoc>
+    <QtMoc Include="Interface\Widgets\BotTable\BotTableModel.h">
+      <Filter>Interface\Widgets\BotTable</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\Connection\ConnectionHandler.h">
+      <Filter>Core\Connection</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\Connection\Http.h">
+      <Filter>Core\Connection</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\Connection\WebsocketConnection.h">
+      <Filter>Core\Connection</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\RequestHandler\WebsocketMessageHandler.h">
+      <Filter>Core\RequestHandler</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
