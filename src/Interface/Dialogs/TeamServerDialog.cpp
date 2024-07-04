@@ -7,7 +7,7 @@ namespace Gui::Interface::Dialogs
 		setParent(parent);
 
 		this->ui = this;
-		setWindowTitle("Tartarus | Teamserver connection");
+		setWindowTitle("C2 | Teamserver connection");
 
 		formLayout = new QFormLayout(this);
 

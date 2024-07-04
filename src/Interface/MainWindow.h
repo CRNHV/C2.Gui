@@ -49,7 +49,7 @@ namespace Gui::Interface
 	public:
 		MainWindow(QWidget* parent = nullptr) : QMainWindow(parent)
 		{
-			this->setWindowTitle("Tartarus UI");
+			this->setWindowTitle("C2 UI");
 			SetupUi(this);
 			this->mainWindow = this;
 

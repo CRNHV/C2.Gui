@@ -159,7 +159,7 @@ namespace Gui::Interface
 		disconnectServer->setVisible(connected);
 		connectServer->setVisible(!connected);
 
-		this->setWindowTitle(connected ? "Tartarus UI - Connected" : "Tartarus UI - Disconnected");
+		this->setWindowTitle(connected ? "C2 UI - Connected" : "C2 UI - Disconnected");
 
 		if (connected)
 		{
